@@ -185,6 +185,7 @@ nav {
   /* margin-bottom: 20px; */
   margin-top: 5px;
   display: flex;
+
   flex-direction: column;
 }
 
@@ -234,19 +235,31 @@ nav {
   margin-bottom: 16px;
   animation: fade-up 650ms 400ms backwards;
 }
+
+.about-me__info--short-paragraph{
+    font-size: 20px;
+  margin-bottom: 10px;
+  animation: fade-up 650ms 600ms backwards;
+  text-align: justify;
+  padding: 5px;
+  
+}
+
 .about-me__info--para {
   font-size: 20px;
   margin-bottom: 28px;
   animation: fade-up 650ms 600ms backwards;
   text-align: justify;
   padding: 5px;
+  display: none;
 }
 
 .about-me__link {
   font-size: 40px;
   color: #6030b1;
   padding: 0 16px;
-  display: inline-block;
+  /* display: inline-block; */
+
   position: relative;
 }
 
@@ -268,7 +281,8 @@ nav {
 
 .about-me__img--container {
   /* flex: 1; */
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: center;
 }
 .about-me__img {
