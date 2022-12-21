@@ -258,7 +258,7 @@ nav {
   font-size: 40px;
   color: #6030b1;
   padding: 0 16px;
-  /* display: inline-block; */
+  display: inline-block;
 
   position: relative;
 }
